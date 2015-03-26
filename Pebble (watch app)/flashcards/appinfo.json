@@ -1,0 +1,24 @@
+{
+  "appKeys": {},
+  "capabilities": [
+    ""
+  ],
+  "companyName": "bmw0543@yahoo.com",
+  "longName": "Flashcards",
+  "projectType": "native",
+  "resources": {
+    "media": []
+  },
+  "sdkVersion": "3",
+  "shortName": "Flashcards",
+  "uuid": "02e9e837-dd80-4e20-b565-eef4ae4a33f1",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "targetPlatforms": [
+    "aplite",
+    "basalt"
+  ]
+}

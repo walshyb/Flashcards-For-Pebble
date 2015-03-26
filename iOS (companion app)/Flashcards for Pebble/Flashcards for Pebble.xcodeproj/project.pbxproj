@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D05803D81ABC82FF00C9C0EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D05803D71ABC82FF00C9C0EF /* main.m */; };
+		D05803DB1ABC82FF00C9C0EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D05803DA1ABC82FF00C9C0EF /* AppDelegate.m */; };
+		D05803DE1ABC82FF00C9C0EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05803DD1ABC82FF00C9C0EF /* ViewController.m */; };
+		D05803E11ABC82FF00C9C0EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05803DF1ABC82FF00C9C0EF /* Main.storyboard */; };
+		D05803E31ABC82FF00C9C0EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05803E21ABC82FF00C9C0EF /* Images.xcassets */; };
+		D05803E61ABC82FF00C9C0EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D05803E41ABC82FF00C9C0EF /* LaunchScreen.xib */; };
+		D05803F21ABC82FF00C9C0EF /* Flashcards_for_PebbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D05803F11ABC82FF00C9C0EF /* Flashcards_for_PebbleTests.m */; };
+		D05803FC1ABC855200C9C0EF /* DecksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05803FB1ABC855200C9C0EF /* DecksViewController.m */; };
+		D05804001ABC89B200C9C0EF /* AddDeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05803FF1ABC89B200C9C0EF /* AddDeckViewController.m */; };
+		D05804021ABC9B8800C9C0EF /* DeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05804011ABC9B8800C9C0EF /* DeckViewController.m */; };
+		D05804061ABC9D2200C9C0EF /* DeckNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05804051ABC9D2200C9C0EF /* DeckNavigationController.m */; };
+		D05804081ABCA11200C9C0EF /* AddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05804071ABCA11200C9C0EF /* AddCardViewController.m */; };
+		D0D95BD31AC3AB8F00D5B11A /* ViewCardNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D95BD21AC3AB8F00D5B11A /* ViewCardNavigationController.m */; };
+		D0D95BD51AC3AC7A00D5B11A /* ViewCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D95BD41AC3AC7A00D5B11A /* ViewCardController.m */; };
+		F9FC1C96CA698D25CA832908 /* libPods-Flashcards for Pebble.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC99E846BCA1FBF940D4E395 /* libPods-Flashcards for Pebble.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D05803EC1ABC82FF00C9C0EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05803CA1ABC82FF00C9C0EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05803D11ABC82FF00C9C0EF;
+			remoteInfo = "Flashcards for Pebble";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		258F1EDD2D4A1501CA86BDC2 /* Pods-Flashcards for Pebble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashcards for Pebble.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flashcards for Pebble/Pods-Flashcards for Pebble.release.xcconfig"; sourceTree = "<group>"; };
+		3803F507773AE1672BD9D553 /* Pods-Flashcards for Pebble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashcards for Pebble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flashcards for Pebble/Pods-Flashcards for Pebble.debug.xcconfig"; sourceTree = "<group>"; };
+		D05803D21ABC82FF00C9C0EF /* Flashcards for Pebble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flashcards for Pebble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05803D61ABC82FF00C9C0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05803D71ABC82FF00C9C0EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D05803D91ABC82FF00C9C0EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D05803DA1ABC82FF00C9C0EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D05803DC1ABC82FF00C9C0EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D05803DD1ABC82FF00C9C0EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D05803E01ABC82FF00C9C0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D05803E21ABC82FF00C9C0EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D05803E51ABC82FF00C9C0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D05803EB1ABC82FF00C9C0EF /* Flashcards for PebbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flashcards for PebbleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05803F01ABC82FF00C9C0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05803F11ABC82FF00C9C0EF /* Flashcards_for_PebbleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flashcards_for_PebbleTests.m; sourceTree = "<group>"; };
+		D05803FB1ABC855200C9C0EF /* DecksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecksViewController.m; sourceTree = "<group>"; };
+		D05803FD1ABC855D00C9C0EF /* DecksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecksViewController.h; sourceTree = "<group>"; };
+		D05803FE1ABC897D00C9C0EF /* AddDeckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddDeckViewController.h; sourceTree = "<group>"; };
+		D05803FF1ABC89B200C9C0EF /* AddDeckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDeckViewController.m; sourceTree = "<group>"; };
+		D05804011ABC9B8800C9C0EF /* DeckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckViewController.m; sourceTree = "<group>"; };
+		D05804031ABC9B9000C9C0EF /* DeckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeckViewController.h; sourceTree = "<group>"; };
+		D05804041ABC9D1A00C9C0EF /* DeckNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeckNavigationController.h; sourceTree = "<group>"; };
+		D05804051ABC9D2200C9C0EF /* DeckNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckNavigationController.m; sourceTree = "<group>"; };
+		D05804071ABCA11200C9C0EF /* AddCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCardViewController.m; sourceTree = "<group>"; };
+		D05804091ABCA11D00C9C0EF /* AddCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCardViewController.h; sourceTree = "<group>"; };
+		D0D95BD01AC3AB6300D5B11A /* ViewCardNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewCardNavigationController.h; sourceTree = "<group>"; };
+		D0D95BD21AC3AB8F00D5B11A /* ViewCardNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCardNavigationController.m; sourceTree = "<group>"; };
+		D0D95BD41AC3AC7A00D5B11A /* ViewCardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCardController.m; sourceTree = "<group>"; };
+		D0D95BD61AC3AC9500D5B11A /* ViewCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewCardController.h; sourceTree = "<group>"; };
+		DC99E846BCA1FBF940D4E395 /* libPods-Flashcards for Pebble.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flashcards for Pebble.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D05803CF1ABC82FF00C9C0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FC1C96CA698D25CA832908 /* libPods-Flashcards for Pebble.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05803E81ABC82FF00C9C0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DE0C93CC4699D32FB2E2C72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC99E846BCA1FBF940D4E395 /* libPods-Flashcards for Pebble.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91CA97CF918040164ACC608D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3803F507773AE1672BD9D553 /* Pods-Flashcards for Pebble.debug.xcconfig */,
+				258F1EDD2D4A1501CA86BDC2 /* Pods-Flashcards for Pebble.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D05803C91ABC82FF00C9C0EF = {
+			isa = PBXGroup;
+			children = (
+				D05803D41ABC82FF00C9C0EF /* Flashcards for Pebble */,
+				D05803EE1ABC82FF00C9C0EF /* Flashcards for PebbleTests */,
+				D05803D31ABC82FF00C9C0EF /* Products */,
+				91CA97CF918040164ACC608D /* Pods */,
+				8DE0C93CC4699D32FB2E2C72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D05803D31ABC82FF00C9C0EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05803D21ABC82FF00C9C0EF /* Flashcards for Pebble.app */,
+				D05803EB1ABC82FF00C9C0EF /* Flashcards for PebbleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D05803D41ABC82FF00C9C0EF /* Flashcards for Pebble */ = {
+			isa = PBXGroup;
+			children = (
+				D05803D91ABC82FF00C9C0EF /* AppDelegate.h */,
+				D05803DA1ABC82FF00C9C0EF /* AppDelegate.m */,
+				D05803DC1ABC82FF00C9C0EF /* ViewController.h */,
+				D05803DD1ABC82FF00C9C0EF /* ViewController.m */,
+				D05803DF1ABC82FF00C9C0EF /* Main.storyboard */,
+				D05803FB1ABC855200C9C0EF /* DecksViewController.m */,
+				D05803FD1ABC855D00C9C0EF /* DecksViewController.h */,
+				D05804041ABC9D1A00C9C0EF /* DeckNavigationController.h */,
+				D05804051ABC9D2200C9C0EF /* DeckNavigationController.m */,
+				D05803FF1ABC89B200C9C0EF /* AddDeckViewController.m */,
+				D05803FE1ABC897D00C9C0EF /* AddDeckViewController.h */,
+				D05804031ABC9B9000C9C0EF /* DeckViewController.h */,
+				D05804011ABC9B8800C9C0EF /* DeckViewController.m */,
+				D05804091ABCA11D00C9C0EF /* AddCardViewController.h */,
+				D05804071ABCA11200C9C0EF /* AddCardViewController.m */,
+				D0D95BD01AC3AB6300D5B11A /* ViewCardNavigationController.h */,
+				D0D95BD21AC3AB8F00D5B11A /* ViewCardNavigationController.m */,
+				D0D95BD61AC3AC9500D5B11A /* ViewCardController.h */,
+				D0D95BD41AC3AC7A00D5B11A /* ViewCardController.m */,
+				D05803E21ABC82FF00C9C0EF /* Images.xcassets */,
+				D05803E41ABC82FF00C9C0EF /* LaunchScreen.xib */,
+				D05803D51ABC82FF00C9C0EF /* Supporting Files */,
+			);
+			path = "Flashcards for Pebble";
+			sourceTree = "<group>";
+		};
+		D05803D51ABC82FF00C9C0EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D05803D61ABC82FF00C9C0EF /* Info.plist */,
+				D05803D71ABC82FF00C9C0EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D05803EE1ABC82FF00C9C0EF /* Flashcards for PebbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D05803F11ABC82FF00C9C0EF /* Flashcards_for_PebbleTests.m */,
+				D05803EF1ABC82FF00C9C0EF /* Supporting Files */,
+			);
+			path = "Flashcards for PebbleTests";
+			sourceTree = "<group>";
+		};
+		D05803EF1ABC82FF00C9C0EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D05803F01ABC82FF00C9C0EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D05803D11ABC82FF00C9C0EF /* Flashcards for Pebble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05803F51ABC82FF00C9C0EF /* Build configuration list for PBXNativeTarget "Flashcards for Pebble" */;
+			buildPhases = (
+				84EEF561D7AD3010ED05DDC1 /* Check Pods Manifest.lock */,
+				D05803CE1ABC82FF00C9C0EF /* Sources */,
+				D05803CF1ABC82FF00C9C0EF /* Frameworks */,
+				D05803D01ABC82FF00C9C0EF /* Resources */,
+				A70027248A68CD4BDB36B23E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flashcards for Pebble";
+			productName = "Flashcards for Pebble";
+			productReference = D05803D21ABC82FF00C9C0EF /* Flashcards for Pebble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D05803EA1ABC82FF00C9C0EF /* Flashcards for PebbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05803F81ABC82FF00C9C0EF /* Build configuration list for PBXNativeTarget "Flashcards for PebbleTests" */;
+			buildPhases = (
+				D05803E71ABC82FF00C9C0EF /* Sources */,
+				D05803E81ABC82FF00C9C0EF /* Frameworks */,
+				D05803E91ABC82FF00C9C0EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05803ED1ABC82FF00C9C0EF /* PBXTargetDependency */,
+			);
+			name = "Flashcards for PebbleTests";
+			productName = "Flashcards for PebbleTests";
+			productReference = D05803EB1ABC82FF00C9C0EF /* Flashcards for PebbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D05803CA1ABC82FF00C9C0EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Brandon Walsh";
+				TargetAttributes = {
+					D05803D11ABC82FF00C9C0EF = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 5RWU54PMY5;
+					};
+					D05803EA1ABC82FF00C9C0EF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D05803D11ABC82FF00C9C0EF;
+					};
+				};
+			};
+			buildConfigurationList = D05803CD1ABC82FF00C9C0EF /* Build configuration list for PBXProject "Flashcards for Pebble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D05803C91ABC82FF00C9C0EF;
+			productRefGroup = D05803D31ABC82FF00C9C0EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D05803D11ABC82FF00C9C0EF /* Flashcards for Pebble */,
+				D05803EA1ABC82FF00C9C0EF /* Flashcards for PebbleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D05803D01ABC82FF00C9C0EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05803E11ABC82FF00C9C0EF /* Main.storyboard in Resources */,
+				D05803E61ABC82FF00C9C0EF /* LaunchScreen.xib in Resources */,
+				D05803E31ABC82FF00C9C0EF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05803E91ABC82FF00C9C0EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84EEF561D7AD3010ED05DDC1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A70027248A68CD4BDB36B23E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flashcards for Pebble/Pods-Flashcards for Pebble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D05803CE1ABC82FF00C9C0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05803DE1ABC82FF00C9C0EF /* ViewController.m in Sources */,
+				D05803FC1ABC855200C9C0EF /* DecksViewController.m in Sources */,
+				D05804001ABC89B200C9C0EF /* AddDeckViewController.m in Sources */,
+				D05804021ABC9B8800C9C0EF /* DeckViewController.m in Sources */,
+				D05804081ABCA11200C9C0EF /* AddCardViewController.m in Sources */,
+				D05804061ABC9D2200C9C0EF /* DeckNavigationController.m in Sources */,
+				D0D95BD31AC3AB8F00D5B11A /* ViewCardNavigationController.m in Sources */,
+				D05803DB1ABC82FF00C9C0EF /* AppDelegate.m in Sources */,
+				D0D95BD51AC3AC7A00D5B11A /* ViewCardController.m in Sources */,
+				D05803D81ABC82FF00C9C0EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05803E71ABC82FF00C9C0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05803F21ABC82FF00C9C0EF /* Flashcards_for_PebbleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D05803ED1ABC82FF00C9C0EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05803D11ABC82FF00C9C0EF /* Flashcards for Pebble */;
+			targetProxy = D05803EC1ABC82FF00C9C0EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D05803DF1ABC82FF00C9C0EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05803E01ABC82FF00C9C0EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D05803E41ABC82FF00C9C0EF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05803E51ABC82FF00C9C0EF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D05803F31ABC82FF00C9C0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D05803F41ABC82FF00C9C0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D05803F61ABC82FF00C9C0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3803F507773AE1672BD9D553 /* Pods-Flashcards for Pebble.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Flashcards for Pebble/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D05803F71ABC82FF00C9C0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258F1EDD2D4A1501CA86BDC2 /* Pods-Flashcards for Pebble.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Flashcards for Pebble/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D05803F91ABC82FF00C9C0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flashcards for PebbleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashcards for Pebble.app/Flashcards for Pebble";
+			};
+			name = Debug;
+		};
+		D05803FA1ABC82FF00C9C0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flashcards for PebbleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashcards for Pebble.app/Flashcards for Pebble";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D05803CD1ABC82FF00C9C0EF /* Build configuration list for PBXProject "Flashcards for Pebble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05803F31ABC82FF00C9C0EF /* Debug */,
+				D05803F41ABC82FF00C9C0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05803F51ABC82FF00C9C0EF /* Build configuration list for PBXNativeTarget "Flashcards for Pebble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05803F61ABC82FF00C9C0EF /* Debug */,
+				D05803F71ABC82FF00C9C0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05803F81ABC82FF00C9C0EF /* Build configuration list for PBXNativeTarget "Flashcards for PebbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05803F91ABC82FF00C9C0EF /* Debug */,
+				D05803FA1ABC82FF00C9C0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D05803CA1ABC82FF00C9C0EF /* Project object */;
+}
